@@ -17,3 +17,4 @@
 | -----------------------           | --------------------------------                                                                                                                   |
 |  01_arrays                        | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/54cfbc69a82cb77430bcae999b2d8221d85cd50a/02_basics/01_arrays.js)                     |
 |  02_arrays                        | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/54cfbc69a82cb77430bcae999b2d8221d85cd50a/02_basics/02_arrays.js)                     |
+|  03_arrays_using_spread           | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/0b474564a2963481ef29cda6b79e8895223c4d32/02_basics/03_arrays_using_spread.js)        |
