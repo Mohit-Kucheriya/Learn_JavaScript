@@ -11,3 +11,9 @@
 |  06_string                        | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/e388a0d4930e82b68da3a230528185a0d85e0a30/01_basics/06_string.js)                     |
 |  07_number_and_math               | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/e388a0d4930e82b68da3a230528185a0d85e0a30/01_basics/07_number_and_math.js)            |
 |  08_date_and_time                 | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/e388a0d4930e82b68da3a230528185a0d85e0a30/01_basics/08_date_and_time.js)              |
+
+### 02_basics
+| Topics                              | Link                                                                                                                                             |
+| -----------------------           | --------------------------------                                                                                                                   |
+|  01_arrays                        | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/54cfbc69a82cb77430bcae999b2d8221d85cd50a/02_basics/01_arrays.js)                     |
+|  02_arrays                        | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/54cfbc69a82cb77430bcae999b2d8221d85cd50a/02_basics/02_arrays.js)                     |
