@@ -20,3 +20,4 @@
 |  03_arrays_using_spread           | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/0b474564a2963481ef29cda6b79e8895223c4d32/02_basics/03_arrays_using_spread.js)        |
 |  04_objects                       | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3f3a86c41925c424d68870aedff1d5efa6e01126/02_basics/04_objects.js)                    |
 |  05_objects                       | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/78961b6c96bc065a7f9ba46a6ca8e09575915526/02_basics/05_objects.js)                    |
+|  06_objects_de_Structure          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/30b177fb931f669fa4ec72d7fd7cc0f6621f3043/02_basics/06_objects_de-Structure.js)       |
