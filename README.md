@@ -21,3 +21,12 @@
 |  04_objects                       | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3f3a86c41925c424d68870aedff1d5efa6e01126/02_basics/04_objects.js)                    |
 |  05_objects                       | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/78961b6c96bc065a7f9ba46a6ca8e09575915526/02_basics/05_objects.js)                    |
 |  06_objects_de_Structure          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/30b177fb931f669fa4ec72d7fd7cc0f6621f3043/02_basics/06_objects_de-Structure.js)       |
+
+### 03_basics
+| Topics                              | Link                                                                                                                                             |
+| -----------------------           | --------------------------------                                                                                                                   |
+|  01_functions                     | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/01_functions.js)                  |
+|  02_scopes                        | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/02_scopes.js)                     |
+|  03_scopesLevel_hoisting          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/03_scopesLevel_hoisting.js)       |
+|  04_arrowFunctions                | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/04_arrowsFunction.js)             |
+|  05_iife                          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/05_iife.js)                       |
