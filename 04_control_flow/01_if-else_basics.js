@@ -54,3 +54,10 @@ let loggedInFromGithub = false;
 if (loggedInFromGithub || loggedInFromGoogle) {
   console.log(`User Logged-in`);
 }
+
+// Terniary Operator: condition ? true : false
+
+const rechargePrice = 499;
+rechargePrice <= 399
+  ? console.log(`BSNL Recharge`)
+  : console.log(`JIO Recharge`);
