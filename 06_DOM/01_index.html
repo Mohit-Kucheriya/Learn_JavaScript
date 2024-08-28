@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document object model</title>
+</head>
+<style>
+    .body-container {
+        background-color: #212121;
+        color: #fff;
+    }
+</style>
+
+<body class="body-container">
+    <div class="container">
+        <h1 id="heading" class="main-heading">DOM (Document Object Model)</h1>
+        <p class="main-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, id.</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <!-- <p>
+        1. Using Array.from()
+        This method creates a new Array instance from an array-like or iterable object like a NodeList. 
+
+        const nodeList = document.querySelectorAll('div'); // Example NodeList 
+        const nodeArray = Array.from(nodeList);
+
+        console.log(nodeArray); // Outputs an array of `div` elements
+    </p> -->
+
+    <!-- <p>
+        2. Using the Spread Operator (...)
+        The spread operator can be used to spread the elements of a NodeList into a new array.
+
+        const nodeList = document.querySelectorAll('div'); // Example NodeList
+        const nodeArray = [...nodeList];
+
+        console.log(nodeArray); // Outputs an array of `div` elements
+    </p> -->
+
+    <!-- <p>
+        HTMLCollection: Typically returned by methods like getElementsByTagName, getElementsByClassName, and certain
+        document properties like forms and images.
+
+        NodeList: Returned by methods like querySelectorAll, childNodes, and getElementsByName.
+    </p> -->
+
+</body>
+
+</html>
