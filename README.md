@@ -35,5 +35,5 @@
 | Topics                              | Link                                                                                                                                             |
 | -----------------------           | --------------------------------                                                                                                                   |
 |  01_if-else_basics                | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/18e84cf161491a7bd8f68410d148474e0b6a9595/04_control_flow/01_if-else_basics.js)       |
-|  02_switch-statement              | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/8bca687e8e22038878d8c3cf3d507c6e3cceb8a2/04_control_flow/02_switch-statement.js)               |
-|  03_truthy-falsy                  | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/18e84cf161491a7bd8f68410d148474e0b6a9595/04_control_flow/03_truthy-falsy.js)         |
+|  02_switch-statement              | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/8bca687e8e22038878d8c3cf3d507c6e3cceb8a2/04_control_flow/02_switch-statement.js)     |
+| 03_truthy-falsy-values-JS         | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/44b0bedece04855019d1bfcc6ba45ca597da2c28/04_control_flow/03_truthy-falsy-values-JS.js)|
