@@ -30,3 +30,10 @@
 |  03_scopesLevel_hoisting          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/03_scopesLevel_hoisting.js)       |
 |  04_arrowFunctions                | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/04_arrowsFunction.js)             |
 |  05_iife                          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/05_iife.js)                       |
+
+### 04_control_flow
+| Topics                              | Link                                                                                                                                             |
+| -----------------------           | --------------------------------                                                                                                                   |
+|  01_if-else_basics                | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/18e84cf161491a7bd8f68410d148474e0b6a9595/04_control_flow/01_if-else_basics.js)       |
+|  02_switch                        | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/18e84cf161491a7bd8f68410d148474e0b6a9595/04_control_flow/02_switch.js)               |
+|  03_truthy-falsy                  | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/18e84cf161491a7bd8f68410d148474e0b6a9595/04_control_flow/03_truthy-falsy.js)         |
