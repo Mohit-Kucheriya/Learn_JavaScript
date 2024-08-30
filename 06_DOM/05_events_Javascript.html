@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body style="background-color: #212121; color: #fff;">
+
+
+    <h2>Amazing Images</h2>
+    <div class="container">
+        <ul id="images">
+            <li><img id="palace" width="250px"
+                    src="https://images.pexels.com/photos/16534745/pexels-photo-16534745/free-photo-of-pavilions-on-gadisar-lake.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt="palace"></li>
+            <li><img id="butterfly" width="250px"
+                    src="https://images.pexels.com/photos/26666961/pexels-photo-26666961/free-photo-of-butterfly-among-leaves.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt="butterfly"></li>
+            <li><img width="250px"
+                    src="https://images.pexels.com/photos/163822/color-umbrella-red-yellow-163822.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="umbrella"></li>
+            <li><img width="250px"
+                    src="https://images.pexels.com/photos/1590901/pexels-photo-1590901.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="rose"></li>
+
+            <li id="google"><a href="https://www.google.com">Google</a></li>
+        </ul>
+    </div>
+
+</body>
+
+<!-- <script>
+    // type, timestamp, defaultPrevented
+    // target, scrElement, toElement
+    // clientX, clientY, screenX, screenY
+    // altKey, ctrlKey
+
+    // Event propgation has two context: 1. event bubbling 2. event capturing
+    /*
+    1. Event Bubbling:
+Event Bubbling ek process hai jisme jab kisi element par event trigger hota hai (jaise click), toh yeh event sabse pehle us element par hota hai aur phir uske parent elements tak bubble up hota hai. Matlab event sabse pehle chhote (innermost) element par lagta hai, phir uske parent, grandparent, aur aise hi root tak pahuncha hai.
+
+Example: Agar aapne ek button click kiya jo ek div ke andar hai, toh click event pehle button par chalega, phir us div par, aur phir uske upar wale elements par.
+
+2. Event Capturing:
+Event Capturing ek process hai jisme event top se start hota hai aur neeche target element tak trickle down hota hai. Matlab event sabse pehle outermost (root) element par lagta hai aur phir step by step neeche aata hai target element tak.
+
+Example: Agar aapne ek button click kiya jo ek div ke andar hai, aur capturing mode on hai, toh event sabse pehle root element se start hoga, phir div par chalega, aur last mein button par chalega.
+
+Summary: Event Bubbling mein event neeche se upar jaata hai, aur Event Capturing mein upar se neeche aata hai.
+    */
+
+    // Default is event bubbling
+    // If we want to stop this propgation we simply write e.stopPropagation()
+    document.querySelector("#images").addEventListener("click", function (e) {
+        console.log("ul was clicked inside");
+    });
+
+    document.querySelector("#palace").addEventListener("click", function (e) {
+        e.stopPropagation()
+        console.log("Palace li was clicked");
+
+    })
+
+    // Event capturing
+    document.querySelector("#images").addEventListener("click", function () {
+        console.log("ul was clicked inside");
+    },true);
+
+    document.querySelector("#palace").addEventListener("click", function () {
+        console.log("Palace li was clicked");
+
+    },true)
+
+    document.getElementById("google").addEventListener("click",function(e){
+        e.preventDefault()
+        console.log("Google was clicked");
+        
+    })
+
+
+
+</script> -->
+<script>
+    document.querySelector("#images").addEventListener("click", function (e) {
+        console.log(e.target.parentNode);
+
+        // Here both approaches are used to remove the child element.
+        const removeIt = e.target.parentNode
+        removeIt.remove()
+
+        // removeIt.parentNode.removeChild(removeIt)
+
+    })
+</script>
+
+</html>
