@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Request</title>
+</head>
+
+<body>
+    <p>
+    <ul style="font-size: 24px; line-height: 40px;">
+        <li> const randomUrl = "https://randomuser.me/api/"
+            Yeh line ek URL define karti hai jahan se data fetch karna hai. Is URL se random user data milta hai.
+        </li>
+        <li>
+            const xhr = new XMLHttpRequest()
+            Yeh line ek naya XMLHttpRequest object create kar rahi hai, jo server se data request karne ke liye use hota
+            hai. Is object ke through hum server se data mangwa sakte hain ya bhej sakte hain.
+        </li>
+        <li>
+
+             xhr.open("GET", randomUrl);
+            Yeh line request ko open kar rahi hai. open method batata hai ki kis type ki request send karni hai (yahan
+            GET
+            request hai) aur kahan send karni hai (yahan randomUrl par). GET request ka matlab hota hai server se data
+            lena.
+        </li>
+        <li>
+             xhr.onreadystatechange = function () {
+            Yeh line ek function define karti hai jo har baar trigger hoga jab request ki readyState change hogi.
+            readyState
+            batata hai ki request kis stage par hai (e.g., started, in progress, completed).
+        </li>
+        <li>
+             console.log(xhr.readyState);
+            Yeh line current readyState ko console mein print karegi. Isse aap dekh sakte ho ki request kaunse stage
+            mein
+            hai.
+        </li>
+
+        <li>
+             if(xhr.readyState === 4){
+            Yeh condition check karti hai ki agar readyState 4 ho, toh iska matlab hai request complete ho chuki hai
+            (response mil gaya hai).
+        </li>
+        <li>
+             console.log(this.responseText);
+            Agar request complete ho jaye, toh yeh line server se aaya hua response text form mein console mein print
+            karegi. this.responseText ke through hum response ko access kar sakte hain.
+        </li>
+        <li>
+
+             xhr.send()
+            Yeh line request ko server par bhejti hai. Iske baad request process hona start hota hai.
+        </li>
+        <li>
+
+            Summary:
+            Is code mein, hum ek GET request bhej rahe hain https://randomuser.me/api/ URL par. Jab request complete ho
+            jati
+            hai (readyState === 4), toh server se jo bhi response milta hai, woh console mein print hota hai.
+        </li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+    </p>
+</body>
+<script>
+    const randomUrl = "https://randomuser.me/api/"
+    const xhr = new XMLHttpRequest()
+    xhr.open("GET", randomUrl);
+    xhr.onreadystatechange = function () {
+        console.log(xhr.readyState);
+        if (xhr.readyState === 4) {
+            let data = this.responseText
+            console.log(data);
+            // here we get the data in  string format so we have to onvert it into JSON object
+            console.log(typeof data);
+
+            // Formated data in proper JSON Format
+            data = JSON.parse(this.responseText);
+            console.log(typeof data)
+            console.log(data.results[0].email)
+            console.log(data.results[0].gender)
+        }
+    }
+    xhr.send()
+</script>
+
+
+
+</html>
