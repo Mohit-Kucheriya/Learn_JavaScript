@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>setInterval</title>
+</head>
+
+<body>
+    <h1 id="mainHeading">Async JavaScript setInterval</h1>
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+</body>
+
+</html>
+
+<script>
+    const intervalFuc = function () {
+        console.log(`Heelo World`)
+    }
+    let intervalId;
+
+    document.querySelector("#startBtn").addEventListener("click", function () {
+        intervalId = setInterval(intervalFuc, 1000);
+
+    })
+
+    document.querySelector("#stopBtn").addEventListener("click", function () {
+        clearInterval(intervalId)
+    })
+
+</script>
