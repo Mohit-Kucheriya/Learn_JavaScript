@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>setTimeout</title>
+</head>
+
+<body>
+    <h1 id="mainHeading">Async JavaScript setTimeout</h1>
+    <button id="stopBtn">Stop</button>
+</body>
+
+</html>
+
+<script>
+    const sayHello = function () {
+        console.log("Hello World");
+    };
+
+    document.querySelector("#stopBtn").addEventListener("click", function () {
+        clearTimeout(holdTime);
+    })
+
+    const holdTime = setTimeout(sayHello, 2000);
+</script>
