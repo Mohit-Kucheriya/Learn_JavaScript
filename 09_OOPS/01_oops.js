@@ -11,3 +11,12 @@ const user = {
 
 console.log(user);
 console.log(user.getUserDetails());
+
+function userOne(username, isLoggedOut, numberOfLoggedIn) {
+  this.username = username;
+  this.isLoggedOut = isLoggedOut;
+  this.numberOfLoggedIn = numberOfLoggedIn;
+}
+
+const printUserOne = new userOne("mohit-kucheriya", true, 8);
+console.log(printUserOne);
