@@ -55,8 +55,14 @@
 | 01_index                          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/f7c9cb193dd7b811cabab917285fac0a1bc0f16f/06_DOM/01_index.html)                       |
 | 02_index                          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/f7c9cb193dd7b811cabab917285fac0a1bc0f16f/06_DOM/02_index.html)                       |
 | 03_index                          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/f7c9cb193dd7b811cabab917285fac0a1bc0f16f/06_DOM/03_index.html)                       |
-|04_edit_remove_DOM_JS              | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/6bc96d85ef31c45d4f7aca7133841e963962093c/06_DOM/04_edit_remove_DOM_JS.html)  |
+|04_edit_remove_DOM_JS              | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/6bc96d85ef31c45d4f7aca7133841e963962093c/06_DOM/04_edit_remove_DOM_JS.html)          |
 | 05_events_Javascript              | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/f7c9cb193dd7b811cabab917285fac0a1bc0f16f/06_DOM/05_events_Javascript.html)           |
-            
+
+### 07_async_JavaScript
+| Topics                            | Link                                                                                                                                               |
+| -----------------------           | --------------------------------                                                                                                                   |
+| 01_setTimeout_JavaScript          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/086769dbc3f86cc97af20d64c60532f944034e3c/07_async_JavaScript/01_setTimeout_JavaScript.html)     |
+| 02_setInterval                    | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/9e26f3fe4dd779845a4f9f2a260f50d0a2c3ebf1/07_async_JavaScript/02_setInterval.html)     |
+
 
 
