@@ -59,10 +59,10 @@
 | 05_events_Javascript              | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/f7c9cb193dd7b811cabab917285fac0a1bc0f16f/06_DOM/05_events_Javascript.html)           |
 
 ### 07_async_JavaScript
-| Topics                            | Link                                                                                                                                               |
-| -----------------------           | --------------------------------                                                                                                                   |
+| Topics                            | Link                                                                                                                                                          |
+| -----------------------           | --------------------------------                                                                                                                              |
 | 01_setTimeout_JavaScript          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/086769dbc3f86cc97af20d64c60532f944034e3c/07_async_JavaScript/01_setTimeout_JavaScript.html)     |
-| 02_setInterval                    | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/9e26f3fe4dd779845a4f9f2a260f50d0a2c3ebf1/07_async_JavaScript/02_setInterval.html)     |
+| 02_setInterval                    | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/9e26f3fe4dd779845a4f9f2a260f50d0a2c3ebf1/07_async_JavaScript/02_setInterval.html)               |
 
 
 
