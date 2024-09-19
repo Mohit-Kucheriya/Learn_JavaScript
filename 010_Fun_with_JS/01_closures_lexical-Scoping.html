@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lexical Scoping & Closures</title>
+  </head>
+  <body style="background-color: #111">
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+  </body>
+  <script>
+    // Lexical Scoping
+    function outerFun() {
+      // Here username is accessible for all inner function, but outer function cant access the inner functions variable
+      let username = "Mohit Kucheriya";
+
+      function innerFun1() {
+        let innerUsername1 = "Harry Potter";
+        console.log(username);
+        console.log(innerUsername1);
+      }
+      innerFun1();
+      function innerFun2() {
+        let innerUsername2 = "Ron Wesely";
+        console.log(username);
+        console.log(innerUsername2);
+      }
+      innerFun2();
+    }
+    // console.log(username); here username is not accesssible outside the scope
+
+    outerFun();
+
+    // Closures
+    // Here when we return the inner function not only that function gets return but it's parent function lexical scope also gets return/ goes/ gets store in the  memory
+    function displayName() {
+      const myName = "Ruchita Jain";
+      function innerDisplayName() {
+        console.log(myName);
+      }
+      return innerDisplayName;
+    }
+
+    const myDisplayName = displayName();
+    myDisplayName();
+  </script>
+
+  <script>
+    /*
+    document.getElementById("orange").onclick = function () {
+      document.body.style.backgroundColor = "orange";
+    };
+    document.getElementById("green").onclick = function () {
+      document.body.style.backgroundColor = "green";
+    };
+    */
+
+    /* In these, onclick get execute without even clicking on button, because if we have 100 buttons we'll repeat the code so we convert it in the code, but here is the problem that we cant pass the reference to onclick, it want the function.
+
+    So here come the closures into picture.
+
+    function changeColor(color){
+      document.body.style.backgroundColor = `${color}`
+    }
+
+    document.getElementById("orange").onclick = changeColor("orange")
+    */
+
+    function changeColor(color) {
+      return function () {
+        document.body.style.backgroundColor = `${color}`;
+      };
+    }
+
+    document.getElementById("orange").onclick = changeColor("orange");
+    document.getElementById("green").onclick = changeColor("green");
+  </script>
+</html>
