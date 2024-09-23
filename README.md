@@ -62,18 +62,23 @@
 ### 07_async_JavaScript
 | JavaScript Topics         | Links                              |
 |---------------------------|------------------------------------|                                                                                                                                             
-| 01_asynchro_setTimeout            | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/40571d596be617d65e7a58621a6c497d57a96df0/07_async_JavaScript/01_asynchro_setTimeout.html)|
+| 01_asynchro_setTimeout            | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/40571d596be617d65e7a58621a6c497d57a96df0/07_async_JavaScript/01_asynchro_setTimeout.html)  |
 | 02_setInterval                    | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/006e9ce241f01e548173eed4582b2c56ab94ace2/07_async_JavaScript/02_setInterval.html)          |
 
 ### 09_OOPS
-| Topics                            | Link                                                                                                                                                          |
+| JavaScript Topics                 | Link                                                                                                                                                          |
 | -----------------------           | --------------------------------                                                                                                                              |
 | 01_oops                           | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/01_oops.js)                                    |
 | 02_myClasses                      | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/02_myClasses.js)                               |
 | 03_inheritence_static             | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/03_inheritence_static.js)                      |
 | 04_mathPI                         | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/04_mathPI.js)                                  |
-| 05_getter_setter-Javscript       | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/c55caab7198cfc26028703bd8e5ace7044894ea0/09_OOPS/05_getter_setter-Javscript.js)             |
+| 05_getter_setter-Javscript        | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/c55caab7198cfc26028703bd8e5ace7044894ea0/09_OOPS/05_getter_setter-Javscript.js)                 |
 | 06_properties_get_set             | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/06_properties_get_set.js)                      |
+
+### 010_Fun_with_JS
+|JavaScript Topics                  | Link                                                                                                                                                          |
+| -----------------------           | --------------------------------                                                                                                                              |
+| 01_closures_lexical-Scope          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/e62b22545a12b9de1475a683e66fd3a4c9a89a09/010_Fun_with_JS/01_closures_lexical-Scope.html)       |
 
 
 
