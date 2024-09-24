@@ -78,7 +78,7 @@
 ### 010_Fun_with_JS
 |JavaScript Topics                  | Link                                                                                                                                                          |
 | -----------------------           | --------------------------------                                                                                                                              |
-| 01_closures_lexicalScope          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/20558f49dea5f1bf0e5b938fa01513cafadb67fc/010_Fun_with_JS/01_closures_lexicalScope.html)       |
+| 01_closures_lexicalScope          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/20558f49dea5f1bf0e5b938fa01513cafadb67fc/010_Fun_with_JS/01_closures_lexicalScope.html)         |
 
 
 
