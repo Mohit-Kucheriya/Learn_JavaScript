@@ -25,8 +25,8 @@
 ### 03_basics
 | JavaScript Topics         | Link                              |
 |---------------------------|------------------------------------|                                                                                                                                             
-|  01_functions                     | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/01_functions.js)                  |
-|  02_scopes                        | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/02_scopes.js)                     |
+|  01_functions                     | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/01_functions.js)                   |
+|  02_scopes                        | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/02_scopes.js)                      |
 |  03_scope_levels_hoisting         | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/be856f8cc5d9bcd7a1263631aadaacd6b868a7a8/03_basics/03_scope_levels_hoisting.js)       |
 |  04_arrowFunctions_Java           | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/713b5e73f946424cc19b9701f94ce5b3956d9fa8/03_basics/04_arrowsFunction_Java.js)         |
 |  05_iife                          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/7edbad4515e5f014f17eba4b93ecac32fd097519/03_basics/05_iife.js)                        |
@@ -34,8 +34,8 @@
 ### 04_control_flow
 | JavaScript Topics         | Link                              |
 |---------------------------|------------------------------------|                                                                                                                                             
-|  01_if-else_basics                | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/18e84cf161491a7bd8f68410d148474e0b6a9595/04_control_flow/01_if-else_basics.js)       |
-|  02_switch-statement              | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/8bca687e8e22038878d8c3cf3d507c6e3cceb8a2/04_control_flow/02_switch-statement.js)     |
+|  01_if-else_basics                | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/18e84cf161491a7bd8f68410d148474e0b6a9595/04_control_flow/01_if-else_basics.js)            |
+|  02_switch-statement              | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/8bca687e8e22038878d8c3cf3d507c6e3cceb8a2/04_control_flow/02_switch-statement.js)          |
 |  03_truthy_&_falsy_valnJS         | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/6f11280bd4914c7563199cfb7a62b13df6dbdefd/04_control_flow/03_truthy_%26_falsy_valnJS.js)   |
 
 
@@ -67,7 +67,7 @@
 
 ### 09_OOPS
 | JavaScript Topics                 | Link                                                                                                                                                          |
-| -----------------------           | --------------------------------                                                                                                                              |
+| -----------------------           | --------------------------------|
 | 01_oops                           | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/01_oops.js)                                    |
 | 02_myClasses                      | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/02_myClasses.js)                               |
 | 03_inheritence_static             | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/03_inheritence_static.js)                      |
