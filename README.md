@@ -75,7 +75,7 @@
 | 05_getter_setter_method           | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/a75e5befdd7d59aae3f015c730eed5e86fedb60d/09_OOPS/05_getter_setter_method.js)                    |
 | 06_properties_get_set             | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/06_properties_get_set.js)                      |
 
-### 010_Fun_with_JS
+### 10_Fun_with_JS
 |JavaScript Topics                  | Link                                                                                                                                                          |
 | -----------------------           | --------------------------------                                                                                                                              |
 | 01_closures_lexicalScope          | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/20558f49dea5f1bf0e5b938fa01513cafadb67fc/010_Fun_with_JS/01_closures_lexicalScope.html)         |
