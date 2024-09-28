@@ -66,7 +66,7 @@
 | 02_setInterval                    | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/006e9ce241f01e548173eed4582b2c56ab94ace2/07_async_JavaScript/02_setInterval.html)          |
 
 ### 09_OOPS
-| JavaScript Topics                 | Link                                                                                                                                                          |
+| JavaScript Topics                 | Link                            |
 | -----------------------           | --------------------------------|
 | 01_oops                           | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/01_oops.js)                                    |
 | 02_myClasses                      | [↗️](https://github.com/Mohit-Kucheriya/Learn_JavaScript/blob/3efb8e78743eca4b75a2e2e69abf826b2ff2b6b9/09_OOPS/02_myClasses.js)                               |
